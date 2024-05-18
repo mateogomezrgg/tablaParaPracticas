@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copiar Tabla</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h1>
+      La sociedad "A" (controlante) posee el 60% del capital de la sociedad "B"
+      (controlada).
+    </h1>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Estado de Situación patrimonial</th>
+          <th>Empresa A</th>
+          <th>Empresa B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Caja y Bancos</td>
+          <td>0</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>Bienes de cambio</td>
+          <td>40</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>Participaciones permanentes en sociedades - ANC</td>
+          <td>600</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>TOTAL DEL ACTIVO</td>
+          <td>1000</td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>Deudas PASIVO</td>
+          <td>400</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>Capital</td>
+          <td>420</td>
+          <td>700</td>
+        </tr>
+        <tr>
+          <td>Resultado del Ejercicio</td>
+          <td>180</td>
+          <td>300</td>
+        </tr>
+        <tr>
+          <td>Patrimonio Neto</td>
+          <td>600</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>TOTAL</td>
+          <td>1000</td>
+          <td>2000</td>
+        </tr>
+        <tr style="font-weight: bold">
+          <td>Estado de Resultados</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Ventas</td>
+          <td>1000</td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>Costo de Ventas</td>
+          <td>(800)</td>
+          <td>(1000)</td>
+        </tr>
+        <tr>
+          <td>Ganancia Bruta</td>
+          <td>200</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>Gastos de Administración</td>
+          <td>(200)</td>
+          <td>(500)</td>
+        </tr>
+        <tr>
+          <td>Resultados de inversiones en entes relacionados</td>
+          <td>180</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Impuesto a las Ganancias</td>
+          <td>0</td>
+          <td>(200)</td>
+        </tr>
+        <tr style="font-weight: bold">
+          <td>RESULTADO FINAL</td>
+          <td>180</td>
+          <td>300</td>
+        </tr>
+      </tbody>
+    </table>
+    <button onclick="copyTable()">Copiar Tabla</button>
+    <h2>Contenido Copiado</h2>
+    <textarea id="tableText" rows="10" cols="50"></textarea>
+
+    <script src="codigo.js"></script>
+  </body>
+</html>
